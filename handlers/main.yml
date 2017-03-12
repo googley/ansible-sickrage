@@ -1,6 +1,6 @@
 ---
 
-  - name: Restart SickRage service
+  - name: Restart Sickrage service
     service: name=sickrage state=restarted
 
   - name: Reload Sickrage service config
